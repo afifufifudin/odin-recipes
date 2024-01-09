@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    border-radius: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing{
+    background-image: url(./image/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.landing h1{
+    font-family: 'Cookie', cursive;
+    font-size: 6rem;
+    color: azure;
+}
+
+.landing p{
+    /* background-color: coral; */
+    padding: 10px;
+    color: azure;
+    /* width: 70%; */
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.content{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-card{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.recipe-card img{
+    width: 500px;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.content-text *{
+    margin: 10px;
+}
+
+.content-text h2{
+    font-family: 'Cookie';
+    font-size: 5rem;
+    color: coral;
+}
+
+.content-text a{
+    /* background-color: chocolate; */
+    width: fit-content;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: solid coral;
+    text-decoration: none;
+    color: coral;
+    font-weight: bold;
+}
+
+.content-text a:hover{
+    color: azure;
+    background-color: coral;
+    transition: 0.3s;
+}
